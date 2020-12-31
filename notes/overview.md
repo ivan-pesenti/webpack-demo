@@ -28,3 +28,8 @@
 1. to import json no changes needed
 1. changes needed to import xml, csv, tsv
 1. pay attention to curly braces as u haven't to use them to import data. if u are unsure no put them at all!
+
+### custom json parser
+
+1. are the following formats: toml, yaml and json5.
+1. they have their particular loaders and the process is the same as before
