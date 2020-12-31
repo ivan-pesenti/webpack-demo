@@ -16,3 +16,9 @@
 ### images loader
 
 1. we have to check difference between file-loader and "type: 'asset/resource'". At the moment we used the second one and not the file loader
+
+### fonts loader
+
+1. download font-family in assets folder.
+1. use type: 'asset/resource'
+1. inject in css stylesheet
