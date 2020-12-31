@@ -21,4 +21,10 @@
 
 1. download font-family in assets folder.
 1. use type: 'asset/resource'
-1. inject in css stylesheet
+1. inject in css stylesheet through the @font-face syntax
+
+### data loader
+
+1. to import json no changes needed
+1. changes needed to import xml, csv, tsv
+1. pay attention to curly braces as u haven't to use them to import data. if u are unsure no put them at all!
