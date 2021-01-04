@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ivan-pesenti/webpack-demo#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^4.5.1",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0"
   },
