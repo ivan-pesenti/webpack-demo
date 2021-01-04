@@ -33,3 +33,8 @@
 
 1. are the following formats: toml, yaml and json5.
 1. they have their particular loaders and the process is the same as before
+
+### global assets
+
+1. u can use them to group code that are coupled. U can reuse it in another project if u install all the necessary dependencies and the same loaders in webpack config.
+1. u can still refer to global assets by aliasing them and make more easy their import statement
