@@ -18,3 +18,12 @@ do not use them in production!!!
 1. the process listens to changes in dependency graph and it recompiles the changed modules without have to rebuild it manually
 1. change the options of clean-webpack-plugin
 1. main downside it that u have to manually refresh the browser in order to see the changes
+
+### webpack-dev-server
+
+1. has to be configured within devServer object in webpack.config.js to set the directory where to look for the files.
+1. default url localhost:8080
+1. u've to had a scripts in package.json "start": "webpack serve --open"
+1. it opens up the browser and u don't have to manually refresh to see changes in action
+
+###
