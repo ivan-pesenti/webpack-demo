@@ -26,4 +26,11 @@ do not use them in production!!!
 1. u've to had a scripts in package.json "start": "webpack serve --open"
 1. it opens up the browser and u don't have to manually refresh to see changes in action
 
-###
+### webpack-dev-middleware
+
+1. it emits file to a server.
+1. it's used internally also by webpack-dev-server but u can install it as a separate package to obtain a more customizable setup.
+1. it's run together with 'express'
+1. u've to manually setup a server using npm package 'express'
+1. have to add an entry in scripts in package.json to run the node server setup in server.js => "server": "node server.js"
+1. drawback: have to manually refresh the browser to see changes
