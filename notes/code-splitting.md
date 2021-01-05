@@ -20,3 +20,7 @@
 1. use the dependOn option
 1. change the entry object in webpack.config.js
 1. if u use multiple entry points in a single HTML page, sets the optimization.runtimeChunk to 'single'
+
+#### SplitChunksPlugin
+
+1. change the optimization object in webpack.config.js
