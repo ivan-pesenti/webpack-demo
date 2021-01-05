@@ -24,3 +24,9 @@
 #### SplitChunksPlugin
 
 1. change the optimization object in webpack.config.js
+
+#### dynamic import
+
+1. remove static import at the top of the file (in js file)
+1. dynamically import modules in code
+1. the import() syntax returns a promise so it can be used also in async version
