@@ -12,3 +12,11 @@
 1. cons:
    - duplicated modules will be included in both bundles
    - not flexible and cannot dynamically split code
+
+### prevent duplication
+
+#### entry dependencies
+
+1. use the dependOn option
+1. change the entry object in webpack.config.js
+1. if u use multiple entry points in a single HTML page, sets the optimization.runtimeChunk to 'single'
